@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CheckSignal</string>
+    <string name="hello">Get GSM Signal Strength</string>
+
+</resources>

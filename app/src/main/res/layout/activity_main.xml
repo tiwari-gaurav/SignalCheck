@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_margin="15dp">
+        <TextView
+            android:text="Your Operator:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/operator_name"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/op_name"
+            android:layout_width="wrap_content"
+           android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/operator_name"/>
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/RX"
+            android:layout_width="wrap_content"
+           android:layout_alignParentLeft="true"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/op_name"/>
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/TX"
+            android:layout_width="wrap_content"
+           android:layout_alignParentLeft="true"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RX"/>
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/network_speed"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TX"/>
+
+    </RelativeLayout>
+</LinearLayout>
